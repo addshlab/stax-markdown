@@ -1,0 +1,2 @@
+<?php
+// DO NOT REMOVE PHP START TAG
