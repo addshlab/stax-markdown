@@ -38,7 +38,9 @@ class staxMarkdown {
 	}
 
 	public function add_post_class( $classes ) {
-		if ( ! is_single() ) return; 
+		if ( ! is_single() ) {
+			$classes[] = '';
+		} 
 		$classes[] = 'markdown-body';
 		return $classes;
 	}
